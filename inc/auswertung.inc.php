@@ -186,25 +186,25 @@ $output .= " <table style=\"border: 1px dotted #d3d3d3; border-spacing: 0px;bord
 
         if(strlen($_POST['abholer-zwei']) > 0)
         {
-            $output .= ", ";
+            $output .= "; ";
         }
         $output .= htmlentities($_POST['abholer-zwei']);
 
         if(strlen($_POST['abholer-drei']) > 0)
         {
-            $output .= ", ";
+            $output .= "; ";
         }
         $output .= htmlentities($_POST['abholer-drei']);
 
         if(strlen($_POST['abholer-vier']) > 0)
         {
-            $output .= ", ";
+            $output .= "; ";
         }
         $output .= htmlentities($_POST['abholer-vier']);
 
         if(strlen($_POST['abholer-fuenf']) > 0)
         {
-            $output .= ", ";
+            $output .= "; ";
         }
         $output .= htmlentities($_POST['abholer-fuenf']);
 
