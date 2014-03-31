@@ -1,5 +1,4 @@
 <?php
-
 // ##### E-Mail zum Kunden #####
     $to = strip_tags($_POST['ezb-mail']);
 
