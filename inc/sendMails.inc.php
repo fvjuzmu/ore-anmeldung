@@ -9,7 +9,7 @@
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
-    $von = array("ä","ö","ü","ß","Ä","Ö","Ü","é");  //to correct double whitepaces as well
+    $von = array("ä","ö","ü","ß","Ä","Ö","Ü","é");
     $zu  = array("&auml;","&ouml;","&uuml;","&szlig;","&Auml;","&Ouml;","&Uuml;","&#233;");
     $output = str_replace($von, $zu, "<html><body style=\"padding: 30px\">".$output."</body></html>");
 
